@@ -1,6 +1,6 @@
 def square_array(array)
   array.each do |x|
-    let n = 0
+    n = 0
     while array.length > n do
       array[n] = x ** 2
       n += 1
