@@ -11,7 +11,6 @@ def square_array(array)
       array[n] = x ** 2
       n += 1
     end
-    end
   end
 end
 
