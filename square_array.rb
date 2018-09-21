@@ -1,10 +1,6 @@
 def square_array(array)
   array.each do |x|
-    n = 0
-    while array.length > n do
-      array[n] = x ** 2
-      n += 1
-    end
+    array[array.each_index] = x ** 2
   end
 end
 
