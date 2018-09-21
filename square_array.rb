@@ -9,7 +9,7 @@ def square_array(array)
   while array.length > n do
     array.each do |x|
       array[n] = x ** 2
-      n += 1
+      n = n + 1
     end
   end
 end
